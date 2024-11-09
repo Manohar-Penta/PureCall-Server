@@ -10,10 +10,10 @@ const port = process.env.PORT ?? 3000;
 
 app.use(express.json());
 
-app.use(express.static("../client/"));
+app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  res.send("hi");
+  res.sendFile("./public/index.html");
 });
 
 app.post("/", (req, res) => {
