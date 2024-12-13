@@ -9,4 +9,4 @@
 ## Setup locally:
 - clone this repo and change directory into the folder.
 - Run "npm dev" for development environment.
-- Rum "npm start" for production Environment. 
+- Rum "npm build && npm start" for production Environment. 
